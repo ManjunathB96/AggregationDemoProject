@@ -1,18 +1,18 @@
 import { Schema, model } from 'mongoose';
 
-const orderSchema = new Schema(
+const citySchema = new Schema(
   {
     name: {
       type: String
     },
-    size: {
+    country: {
       type: String
     },
-    price: {
-      type: Number
+    continent: {
+      type: String
     },
-    quantity: {
-      type: Number
+    population: {
+      type: String
     }
   },
   {
@@ -20,6 +20,5 @@ const orderSchema = new Schema(
   }
 );
 
-export default model('Order', orderSchema);
-
+export default model('City', citySchema);
 

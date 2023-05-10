@@ -13,12 +13,4 @@ export const getAllOrder = async () => {
   return data;
 };
 
-/*
-db.orders.aggregate( [
-   {
-      $match: { size: "medium" }
-   },
-      $group: { _id: "$name", totalQuantity: { $sum: "$quantity" } }
-   }
-] )
-*/
+

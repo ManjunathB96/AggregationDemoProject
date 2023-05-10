@@ -122,3 +122,57 @@ info: ::1 - - [10/May/2023:11:13:50 +0000] "POST /api/v1/users/login HTTP/1.1" 2
 
 info: ::1 - - [10/May/2023:11:14:08 +0000] "GET /api/v1/orders HTTP/1.1" 200 175 "-" "PostmanRuntime/7.32.2"
 
+info: ::1 - - [10/May/2023:18:46:38 +0000] "POST /api/v1/cities HTTP/1.1" 201 264 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [10/May/2023:18:47:20 +0000] "POST /api/v1/cities HTTP/1.1" 201 258 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [10/May/2023:18:47:38 +0000] "POST /api/v1/cities HTTP/1.1" 201 262 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [10/May/2023:18:47:55 +0000] "POST /api/v1/cities HTTP/1.1" 201 260 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [10/May/2023:18:48:11 +0000] "POST /api/v1/cities HTTP/1.1" 201 261 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [10/May/2023:18:48:26 +0000] "POST /api/v1/cities HTTP/1.1" 201 258 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [10/May/2023:18:48:39 +0000] "POST /api/v1/cities HTTP/1.1" 201 260 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [10/May/2023:18:48:53 +0000] "POST /api/v1/cities HTTP/1.1" 201 256 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [10/May/2023:18:49:07 +0000] "POST /api/v1/cities HTTP/1.1" 201 261 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [10/May/2023:18:49:21 +0000] "POST /api/v1/cities HTTP/1.1" 201 263 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [10/May/2023:18:49:39 +0000] "POST /api/v1/cities HTTP/1.1" 201 277 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [10/May/2023:18:49:52 +0000] "POST /api/v1/cities HTTP/1.1" 201 272 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [10/May/2023:18:50:23 +0000] "POST /api/v1/cities HTTP/1.1" 201 274 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [10/May/2023:18:50:36 +0000] "POST /api/v1/cities HTTP/1.1" 201 258 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [10/May/2023:18:50:49 +0000] "POST /api/v1/cities HTTP/1.1" 201 278 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [10/May/2023:18:51:13 +0000] "POST /api/v1/cities HTTP/1.1" 201 260 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [10/May/2023:18:51:25 +0000] "POST /api/v1/cities HTTP/1.1" 201 278 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [10/May/2023:18:51:37 +0000] "POST /api/v1/cities HTTP/1.1" 201 265 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [10/May/2023:18:51:47 +0000] "POST /api/v1/cities HTTP/1.1" 201 262 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [10/May/2023:18:51:52 +0000] "POST /api/v1/cities HTTP/1.1" 201 264 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [10/May/2023:18:57:08 +0000] "GET /api/v1/cities HTTP/1.1" 201 4096 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [10/May/2023:19:01:56 +0000] "GET /api/v1/cities HTTP/1.1" 201 491 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [10/May/2023:19:05:10 +0000] "GET /api/v1/cities HTTP/1.1" 201 2861 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [10/May/2023:19:10:00 +0000] "GET /api/v1/cities/sort HTTP/1.1" 201 4099 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [10/May/2023:19:37:51 +0000] "GET /api/v1/cities/group HTTP/1.1" 200 166 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [10/May/2023:19:38:11 +0000] "GET /api/v1/cities/sort HTTP/1.1" 202 4099 "-" "PostmanRuntime/7.32.2"
+
+info: ::1 - - [10/May/2023:19:39:24 +0000] "GET /api/v1/cities/sort HTTP/1.1" 202 4099 "-" "PostmanRuntime/7.32.2"
+

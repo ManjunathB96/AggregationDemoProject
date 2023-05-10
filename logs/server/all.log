@@ -131,3 +131,481 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T1
 info: Connected to the database. {"timestamp":"2023-05-10T11:11:33.329Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T11:13:47.458Z"}
 info: Connected to the database. {"timestamp":"2023-05-10T11:13:47.476Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T18:41:53.285Z"}
+info: Connected to the database. {"timestamp":"2023-05-10T18:41:53.310Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T18:46:32.911Z"}
+info: Connected to the database. {"timestamp":"2023-05-10T18:46:32.930Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T18:56:59.273Z"}
+info: Connected to the database. {"timestamp":"2023-05-10T18:56:59.294Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T19:01:37.733Z"}
+info: Connected to the database. {"timestamp":"2023-05-10T19:01:37.752Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T19:03:46.139Z"}
+info: Connected to the database. {"timestamp":"2023-05-10T19:03:46.157Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T19:04:55.986Z"}
+info: Connected to the database. {"timestamp":"2023-05-10T19:04:56.003Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T19:05:47.073Z"}
+info: Connected to the database. {"timestamp":"2023-05-10T19:05:47.095Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T19:09:54.368Z"}
+info: Connected to the database. {"timestamp":"2023-05-10T19:09:54.387Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T19:12:16.012Z"}
+info: Connected to the database. {"timestamp":"2023-05-10T19:12:16.031Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\AggregationPipelineDemo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:231:16)
+    at done (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cities/sort 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-10T19:12:20.745Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T19:14:05.331Z"}
+info: Connected to the database. {"timestamp":"2023-05-10T19:14:05.351Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\AggregationPipelineDemo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:231:16)
+    at done (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cities/sort 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2023-05-10T19:14:09.725Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T19:15:18.530Z"}
+info: Connected to the database. {"timestamp":"2023-05-10T19:15:18.549Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T19:15:39.744Z"}
+info: Connected to the database. {"timestamp":"2023-05-10T19:15:39.765Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\AggregationPipelineDemo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:231:16)
+    at done (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cities/sort 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-10T19:15:45.050Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T19:16:40.928Z"}
+info: Connected to the database. {"timestamp":"2023-05-10T19:16:40.947Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T19:16:45.494Z"}
+info: Connected to the database. {"timestamp":"2023-05-10T19:16:45.511Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\AggregationPipelineDemo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:231:16)
+    at done (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cities/sort 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-10T19:16:48.591Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T19:17:52.061Z"}
+info: Connected to the database. {"timestamp":"2023-05-10T19:17:52.082Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\AggregationPipelineDemo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:231:16)
+    at done (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cities/sort 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-10T19:17:54.296Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T19:18:08.069Z"}
+info: Connected to the database. {"timestamp":"2023-05-10T19:18:08.086Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\AggregationPipelineDemo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:231:16)
+    at done (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cities/sort 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-10T19:18:14.581Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T19:20:29.173Z"}
+info: Connected to the database. {"timestamp":"2023-05-10T19:20:29.194Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T19:20:53.270Z"}
+info: Connected to the database. {"timestamp":"2023-05-10T19:20:53.288Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\AggregationPipelineDemo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:231:16)
+    at done (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cities/sort 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-10T19:21:01.865Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T19:22:00.869Z"}
+info: Connected to the database. {"timestamp":"2023-05-10T19:22:00.888Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\AggregationPipelineDemo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:231:16)
+    at done (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cities/sort 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-10T19:22:05.269Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T19:23:54.267Z"}
+info: Connected to the database. {"timestamp":"2023-05-10T19:23:54.285Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\AggregationPipelineDemo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:231:16)
+    at done (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cities/sort 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-10T19:24:10.477Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T19:25:15.629Z"}
+info: Connected to the database. {"timestamp":"2023-05-10T19:25:15.647Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\AggregationPipelineDemo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:231:16)
+    at done (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cities/sort 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-10T19:25:19.045Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T19:26:38.868Z"}
+info: Connected to the database. {"timestamp":"2023-05-10T19:26:38.885Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\AggregationPipelineDemo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:231:16)
+    at done (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cities/sort 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-10T19:26:43.409Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\AggregationPipelineDemo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:231:16)
+    at done (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cities/sort 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-10T19:26:52.116Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T19:27:09.014Z"}
+info: Connected to the database. {"timestamp":"2023-05-10T19:27:09.035Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\AggregationPipelineDemo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:231:16)
+    at done (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cities/sort 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-10T19:27:13.086Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\AggregationPipelineDemo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:231:16)
+    at done (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cities/match 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-10T19:27:29.723Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\AggregationPipelineDemo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:231:16)
+    at done (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cities/match 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-10T19:27:31.915Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T19:28:22.178Z"}
+info: Connected to the database. {"timestamp":"2023-05-10T19:28:22.199Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\AggregationPipelineDemo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:231:16)
+    at done (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cities/match 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-10T19:28:26.763Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\AggregationPipelineDemo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:231:16)
+    at done (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cities/match 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-10T19:28:38.877Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\AggregationPipelineDemo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:231:16)
+    at done (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cities/match 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-10T19:28:47.587Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T19:31:40.102Z"}
+info: Connected to the database. {"timestamp":"2023-05-10T19:31:40.120Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\AggregationPipelineDemo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:231:16)
+    at done (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cities/group 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-10T19:31:52.407Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T19:32:17.173Z"}
+info: Connected to the database. {"timestamp":"2023-05-10T19:32:17.192Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\AggregationPipelineDemo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:231:16)
+    at done (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cities/group 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-10T19:32:19.477Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T19:36:46.203Z"}
+info: Connected to the database. {"timestamp":"2023-05-10T19:36:46.221Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\AggregationPipelineDemo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:231:16)
+    at done (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cities/group 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-10T19:36:50.839Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T19:37:26.543Z"}
+info: Connected to the database. {"timestamp":"2023-05-10T19:37:26.565Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at createStrictSyntaxError (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:160:10)
+    at parse (D:\AggregationPipelineDemo\node_modules\body-parser\lib\types\json.js:83:15)
+    at D:\AggregationPipelineDemo\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:203:9)
+    at invokeCallback (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:231:16)
+    at done (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:220:7)
+    at IncomingMessage.onEnd (D:\AggregationPipelineDemo\node_modules\raw-body\index.js:280:7)
+    at IncomingMessage.emit (node:events:513:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at endReadableNT (node:internal/streams/readable:1359:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/cities/group 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2023-05-10T19:37:32.028Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T19:39:00.601Z"}
+info: Connected to the database. {"timestamp":"2023-05-10T19:39:00.618Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2023-05-10T19:39:21.716Z"}
+info: Connected to the database. {"timestamp":"2023-05-10T19:39:21.735Z"}
