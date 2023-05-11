@@ -12,4 +12,6 @@ router.get('/sort', userAuth, cityController.citySort);
 
 router.get('/group', userAuth, cityController.cityGroup);
 
+router.get('/project', userAuth, cityController.cityProject);
+
 export default router;

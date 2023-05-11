@@ -55,3 +55,20 @@ export const cityGroup = async () => {
   ]);
   return data;
 };
+
+export const cityProject = async () => {
+  const data = await City.aggregate([
+    {
+      $project: {
+        _id: 0,
+        location: {
+          country: '$country',
+          continent: '$continent'
+        },
+        name: '$name',
+        population: '$population'
+      }
+    }
+  ]);
+  return data;
+};

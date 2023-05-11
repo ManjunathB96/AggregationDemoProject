@@ -50,10 +50,8 @@ export const citySort = async (req, res, next) => {
 };
 
 export const cityGroup = async (req, res, next) => {
-  console.log('Cntr started...............');
   try {
     const data = await cityService.cityGroup();
-    console.log(' controller  Data --------------', data);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
       data: data,
@@ -66,3 +64,21 @@ export const cityGroup = async (req, res, next) => {
     });
   }
 };
+
+export const cityProject = async (req, res, next) => {
+  try {
+    const data = await cityService.cityProject();
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: '$Project stage  executed successfully'
+    });
+  } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
+  }
+};
+
+
