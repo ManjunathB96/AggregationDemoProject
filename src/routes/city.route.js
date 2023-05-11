@@ -14,4 +14,6 @@ router.get('/group', userAuth, cityController.cityGroup);
 
 router.get('/project', userAuth, cityController.cityProject);
 
+router.get('/allStages', userAuth, cityController.cityAllStages);
+
 export default router;

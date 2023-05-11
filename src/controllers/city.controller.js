@@ -80,5 +80,20 @@ export const cityProject = async (req, res, next) => {
     });
   }
 };
+export const cityAllStages = async (req, res, next) => {
+  try {
+    const data = await cityService.cityAllStages();
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: '$All Stages executed successfully'
+    });
+  } catch (error) {
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code: HttpStatus.BAD_REQUEST,
+      message: `${error}`
+    });
+  }
+};
 
 

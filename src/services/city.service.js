@@ -72,3 +72,26 @@ export const cityProject = async () => {
   ]);
   return data;
 };
+
+export const cityAllStages = async () => {
+  const data = await City.aggregate([
+    {
+      $match: {
+        continent: { $in: ['North America', 'Asia'] }
+      }
+    },
+    { $sort: { population: -1 } },
+    {
+      $group: {
+        _id: {
+          continent: '$continent',
+          country: '$country'
+        },
+        first_city: { $first: '$name' },
+        "highest_population": { $max: "$population" }
+      }
+    }
+  ]);
+  return data;
+};
+
