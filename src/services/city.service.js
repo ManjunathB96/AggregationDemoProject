@@ -20,11 +20,38 @@ export const cityMatch = async () => {
 
 export const citySort = async () => {
   // const data = await City.find().sort({ population: -1 });
-  const data = await City.aggregate([{ $sort: { population: -1 } }]);
+  // const data = await City.aggregate([{ $sort: { population: -1 } }]);
+  const data = await City.aggregate([
+    { $match: { continent: 'North America' } },
+    { $sort: { population: 1 } }
+  ]);
   return data;
 };
 
 export const cityGroup = async () => {
-  const data = await City.aggregate([{ $group: { _id: '$continent' } }]);
+  // const data = await City.aggregate([{ $group: { _id: '$continent' } }]);
+  // const data = await City.aggregate([
+  //   {
+  //     $group: {
+  //       _id: {
+  //         continent: '$continent',
+  //         country: '$country'
+  //       }
+  //     }
+  //   }
+  // ]);
+  const data = await City.aggregate([
+    {
+      $group: {
+        _id: {
+          continent: '$continent',
+          country: '$country'
+        },
+        highest_population: { $max: '$population' },
+        first_city: { $first: '$name' },
+        cities_in_top_20: { $sum: 1 }
+      }
+    }
+  ]);
   return data;
 };
