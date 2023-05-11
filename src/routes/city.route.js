@@ -4,16 +4,12 @@ import { userAuth } from '../middlewares/auth.middleware';
 const router = express.Router();
 
 //route to get all oredrs
-router.post('',userAuth, cityController.cityDetails);
+router.post('', userAuth, cityController.cityDetails);
 
-router.get('/match',userAuth, cityController.cityMatch);
+router.get('/match', userAuth, cityController.cityMatch);
 
-router.get('/sort',userAuth, cityController.citySort);
+router.get('/sort', userAuth, cityController.citySort);
 
-router.get('/group',userAuth, cityController.cityGroup);
-
-
-
-
+router.get('/group', userAuth, cityController.cityGroup);
 
 export default router;

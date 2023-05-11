@@ -19,16 +19,12 @@ export const cityMatch = async () => {
 };
 
 export const citySort = async () => {
- // const data = await City.find().sort({ population: -1 });
-  const data = await City.aggregate([
-    { $sort: { population: -1 } }
-  ]);
+  // const data = await City.find().sort({ population: -1 });
+  const data = await City.aggregate([{ $sort: { population: -1 } }]);
   return data;
 };
 
 export const cityGroup = async () => {
-  console.log("service starrt.............................");
   const data = await City.aggregate([{ $group: { _id: '$continent' } }]);
-  console.log(" service  Data --------------",data);
   return data;
 };
