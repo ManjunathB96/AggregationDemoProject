@@ -8,13 +8,11 @@ export const cityDetails = async (body) => {
 //$match stage as equivalent to querying the collection with find()
 export const cityMatch = async () => {
   //   const data = await City.find()
-  //   const data = await City.aggregate([{ $match: {} }]);
+  //  const data = await City.aggregate([{ $match: {} }]);
+  const data = await City.aggregate([{ $match: { continent: 'Asia' } }]);
   // const data = await City.aggregate([
-  //   { $match: { continent: 'North America' } }
+  //   { $match: { continent: { $in: ['North America', 'Asia'] } } }
   // ]);
-  const data = await City.aggregate([
-    { $match: { continent: { $in: ['North America', 'Asia'] } } }
-  ]);
   return data;
 };
 
@@ -56,6 +54,9 @@ export const cityGroup = async () => {
   return data;
 };
 
+// $project stage to construct new document structures in an aggregation pipeline
+// _id doesn’t appear in the outputted document
+//projection keys are set to 0, excluded  1 included
 export const cityProject = async () => {
   const data = await City.aggregate([
     {
@@ -74,24 +75,49 @@ export const cityProject = async () => {
 };
 
 export const cityAllStages = async () => {
+  // const data = await City.aggregate([
+  //   {
+  //     $match: {
+  //       continent: { $in: ['North America', 'Asia'] }
+  //     }
+  //   },
+  //   { $sort: { population: -1 } },
+  //   {
+  //     $group: {
+  //       _id: {
+  //         continent: '$continent',
+  //         country: '$country'
+  //       },
+  //       first_city: { $first: '$name' },
+  //       highest_population: { $max: '$population' }
+  //     }
+  //   }
+  // ]);
+console.log("Heloo Manjunath");
   const data = await City.aggregate([
     {
       $match: {
         continent: { $in: ['North America', 'Asia'] }
       }
     },
-    { $sort: { population: -1 } },
     {
-      $group: {
-        _id: {
-          continent: '$continent',
-          country: '$country'
-        },
-        first_city: { $first: '$name' },
-        "highest_population": { $max: "$population" }
-      }
-    }
+      $sort: { population: 1 }
+    },
+    // {
+    //   $group: {
+    //     _id: {
+    //       continent: '$continent',
+    //       country: '$country'
+    //     },
+    //     first_city: { $first: '$name' },
+    //     highest_population: { $max: '$population' }
+    //   }
+    // },
+    // {
+    //   $match: {
+    //     highest_population: { $gt: 20.0 }
+    //   }
+    // }
   ]);
   return data;
 };
-
