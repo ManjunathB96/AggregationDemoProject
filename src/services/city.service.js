@@ -93,7 +93,7 @@ export const cityAllStages = async () => {
   //     }
   //   }
   // ]);
-console.log("Heloo Manjunath");
+
   const data = await City.aggregate([
     {
       $match: {
@@ -101,23 +101,39 @@ console.log("Heloo Manjunath");
       }
     },
     {
-      $sort: { population: 1 }
+      $sort: { population: -1 }
     },
-    // {
-    //   $group: {
-    //     _id: {
-    //       continent: '$continent',
-    //       country: '$country'
-    //     },
-    //     first_city: { $first: '$name' },
-    //     highest_population: { $max: '$population' }
-    //   }
-    // },
+    {
+      $group: {
+        _id: {
+          continent: '$continent',
+          country: '$country'
+        },
+        first_city: { $first: '$name' },
+        highest_population: { $max: '$population' }
+      }
+    },
     // {
     //   $match: {
     //     highest_population: { $gt: 20.0 }
     //   }
-    // }
+    // },
+    {
+      $sort: { highest_population: -1 }
+    },
+    {
+      $project: {
+        _id: 0,
+        location: {
+          country: '$_id.country',
+          continent: '$_id.continent'
+        },
+        most_populated_city: {
+          name: '$first_city',
+          population: '$highest_population'
+        }
+      }
+    }
   ]);
   return data;
 };
