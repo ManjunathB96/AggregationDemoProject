@@ -10,6 +10,11 @@ export const cityMatch = async () => {
   //   const data = await City.find()
   //  const data = await City.aggregate([{ $match: {} }]);
   const data = await City.aggregate([
+    {
+      $addFields: {
+        nationalPark: {}
+      }
+    },
     { $match: { continent: 'Asia' } },
     { $count: 'TotalDocsPassedPreviousStage' }
   ]);
@@ -26,6 +31,14 @@ export const citySort = async () => {
   const data = await City.aggregate([
     { $match: { continent: 'Asia' } },
     { $sort: { population: 1 } },
+    {
+      $lookup: {
+        from: 'pizzaHouse',
+        localField:"population",
+        foreignField:"size",
+        as:"result"
+      }
+    },
     { $limit: 1 }
   ]);
   return data;
@@ -51,8 +64,7 @@ export const cityGroup = async () => {
           country: '$country'
         },
         highest_population: { $max: '$population' },
-        first_city: { $first: '$name' },
-        cities_in_top_20: { $sum: 1 }
+        first_city: { $first: '$name' }
       }
     }
   ]);
@@ -74,7 +86,8 @@ export const cityProject = async () => {
         name: '$name',
         population: '$population'
       }
-    }
+    },
+    { $limit: 2 }
   ]);
   return data;
 };
@@ -133,7 +146,8 @@ export const cityAllStages = async () => {
           population: '$highest_population'
         }
       }
-    }
+    },
+    {$out:"cityDetails"}
   ]);
   return data;
 };
